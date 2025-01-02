@@ -1,0 +1,9 @@
+To run the door, execute the following command
+
+           slots.exe [DROPFILE] [SOCKET]
+
+where [DROPFILE] is the full path and filename of the door32.sys dropfile.
+Ensure that the working directory is the MagiSlots directory. Use door32.sys
+on windows, and door.sys on linux.
+
+[SOCKET] is optional, and only needed if using door.sys on Windows.

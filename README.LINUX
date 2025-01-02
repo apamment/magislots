@@ -1,0 +1,21 @@
+To build on Linux (Ubuntu/Debian),
+
+1. ensure you have a C compiler and make
+
+           apt-get install build-essential cmake
+
+2. Make the build.sh script executable,
+
+           chmod +x build.sh
+
+3. Run the build script
+
+			bash ./build.sh
+
+To run the door, execute the following command
+
+           ./slots [DROPFILE]
+
+where [DROPFILE] is the full path and filename of door.sys dropfile. 
+
+Ensure that the working directory is the MagiSlots directory.
